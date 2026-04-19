@@ -84,13 +84,13 @@ class _LoginPageState extends State<LoginPage> {
               Center(
                 child: Column(
                   children: [
-                    Image.network(
-                      'https://cdn-icons-png.flaticon.com/512/415/415733.png',
-                      width: 90,
-                      height: 90,
+                    Image.asset(
+                     'assets/images/logo_foodlog.png',
+                      width: 350,
+                      height: 180,
                       errorBuilder: (_, __, ___) => const Icon(
                         Icons.health_and_safety,
-                        size: 90,
+                        size: 50,
                         color: Color(0xFF2979FF),
                       ),
                     ),
